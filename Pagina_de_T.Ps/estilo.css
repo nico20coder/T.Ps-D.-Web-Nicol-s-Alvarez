@@ -1,0 +1,75 @@
+*{
+    /*height: 0%;*/
+    /*margin: 0%;
+    padding: 0%;*/
+    box-sizing: border-box;
+
+}
+
+.contenedor{
+    background-color: blue;
+    display: grid;
+    grid-template-areas: 
+       "menu cuerpo"
+       "cuerpo cuerpo";
+    grid-template-columns: 1fr 1fr;   
+   /* color: antiquewhite;*/
+}
+
+ /*----------------
+  ESTILOS DEL MENU
+  -----------------*/
+.menu_principal, .submenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /*color: aliceblue;*/
+}
+.menu_principal{
+    grid-area: menu;
+    display: flex;
+    background-color: #212529;
+    padding: 0 20px;
+    /*color: azure;*/
+}
+
+.menu_principal > li{
+    position: relative;
+}
+.menu_principal a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu_principal a:hover{
+    background-color: #ffd60a;
+    color: #000000;
+}
+
+/*ANIMACIONES DE DESPLIEGUE*/
+.submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 100vh;
+    background-color: #343a40;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgb(0, 0, 0,0.2);
+    border-radius: 0px 0px 8px 8px;
+}
+.submenu li a{
+    padding: 12px 16px;
+    font-weight: normal;
+}
+.dropdown:hover .submenu{
+    display: block;
+}
+.contenido{
+    grid-area: cuerpo;
+}
+
+

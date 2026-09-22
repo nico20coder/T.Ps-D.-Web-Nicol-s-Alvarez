@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    border: 0cap;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.section_1{
+    background-color: f8f9fa ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.card1{
+    width: 30px;
+    height: 30%;
+    background-color:rgb(255, 255, 255) ;
+
+}
+.card2{
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+}

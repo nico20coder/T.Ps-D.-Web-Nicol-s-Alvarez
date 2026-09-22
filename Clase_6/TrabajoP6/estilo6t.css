@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /*grid-template-rows: auto auto 1fr 1fr auto;*/
+    grid-template-areas: 
+        "header   header"
+        "nav      nav"
+        "section  aside"
+        "article  aside"
+        "footer   footer";
+    gap: 5px;
+    padding: 12px;
+    min-height: 100vh; 
+}
+
+.Cabeza{
+    grid-area: header;
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.Navegacion{
+    grid-area: nav;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px; 
+}
+.enlace{
+    background-color: black;
+    color: bisque;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arti1{
+    grid-area: section;
+    background-color: black;
+    border-radius: 8px;
+    padding: 40px;
+    min-height: 150px;
+    color: beige;
+}
+
+.arti2{
+    grid-area: article;
+    background-color: blueviolet;
+    padding: 40px;
+    min-height: 150px;
+}
+
+.mitad{
+    grid-area: aside;
+    background-color: burlywood;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://imgs.search.brave.com/Xe-UuY0Mh3w9I84e46nQptaNoWYq7JbwBwYuk8fH2HU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYWtl/cndvcmxkLmJibG13/LmNvbS9tYWtlcndv/cmxkL21vZGVsL1VT/ZTYyNjYyOWEzMzNh/MmQvZGVzaWduLzIw/MjUtMDktMzBfNzBm/ODg1ZWM0MWM4Nzgu/cG5nP3gtb3NzLXBy/b2Nlc3M9aW1hZ2Uv/cmVzaXplLHdfMTAw/MC9mb3JtYXQsd2Vi/cA);
+    margin-top: 15px;
+    /*background-position: center;*/
+}
+
+.pie{
+    grid-area: footer;
+    background-color: chartreuse;
+    color: brown;
+    text-align: center;
+    padding: 15px;
+}

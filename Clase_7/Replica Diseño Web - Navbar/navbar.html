@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar - E-commerce Fashion</title>
+    
+    <!-- CONEXIÓN CON GOOGLE FONTS -->
+    <!-- Pre-conectamos con los servidores de Google para acelerar la carga de la tipografía 'Poppins' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Importamos los diferentes grosores (pesos) de la fuente que vamos a utilizar -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CONEXIÓN CON FONT AWESOME -->
+    <!-- Importamos la librería de íconos para poder usar gráficos vectoriales (como la bolsa de compras) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- ENLACE AL ARCHIVO DE ESTILOS CSS -->
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <!-- CONTENEDOR PRINCIPAL DE LA BARRA DE NAVEGACIÓN -->
+    <!-- Usamos <header> como etiqueta semántica para la cabecera de la página -->
+    <header class="navbar-container">
+        
+        <!-- SECCIÓN DEL LOGOTIPO -->
+        <div class="logo">
+            <!-- Etiqueta <i> que renderiza el ícono de la bolsa de compras de Font Awesome -->
+            <i class="fa-solid fa-bag-shopping"></i> FASHION
+        </div>
+        
+        <!-- SECCIÓN DE ENLACES DE NAVEGACIÓN -->
+        <!-- Usamos la etiqueta <nav> para agrupar los links principales del sitio -->
+        <nav class="nav-links">
+            <a href="#catalogue">CATALOGUE</a>
+            <a href="#fashion">FASHION</a>
+            <a href="#favourite">FAVOURITE</a>
+            <a href="#lifestyle">LIFESTYLE</a>
+            <!-- El último enlace se transformará automáticamente en botón mediante CSS (:last-child) -->
+            <a href="#signup">SIGN UP</a>
+        </nav>
+        
+    </header>
+
+</body>
+</html>
