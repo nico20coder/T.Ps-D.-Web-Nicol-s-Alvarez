@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #56682c;
+    background-color: #a9b68a;
     display: flex;
     justify-content: center;
 }
-
+/*
 .navbar{
     width: 100px;
     height: 85%;
     background-color: #1a2f00;
-    justify-content: center;
-}
-
+    justify-content: start;
+    /*flex: start;
+*/
 .Contenedor{
     background-color: #9bb55f;
     width: 70%;

@@ -34,8 +34,8 @@ body{
     padding: 10px; 
 }
 .enlace{
-    background-color: black;
-    color: bisque;
+    background-color: rgb(34, 36, 34);
+    color: rgb(115, 117, 115);
     padding: 8px 16px;
     border-radius: 5px;
     cursor: pointer;
@@ -64,7 +64,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(https://imgs.search.brave.com/Xe-UuY0Mh3w9I84e46nQptaNoWYq7JbwBwYuk8fH2HU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYWtl/cndvcmxkLmJibG13/LmNvbS9tYWtlcndv/cmxkL21vZGVsL1VT/ZTYyNjYyOWEzMzNh/MmQvZGVzaWduLzIw/MjUtMDktMzBfNzBm/ODg1ZWM0MWM4Nzgu/cG5nP3gtb3NzLXBy/b2Nlc3M9aW1hZ2Uv/cmVzaXplLHdfMTAw/MC9mb3JtYXQsd2Vi/cA);
     margin-top: 15px;
     /*background-position: center;*/
 }
